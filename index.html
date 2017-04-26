@@ -2,34 +2,39 @@
 <html>
 <head>
 	<title>Kernesco</title>
+	 <meta charset="UTF-8"> 
 		<link rel="stylesheet" type="text/css" href="reset.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="Style.css">
 		<link rel="stylesheet" type="text/css" href="styleupdate.css">
+		<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+    	<script type="text/javascript" src="script.js"></script>
 </head>
 <body>
+	<a class="upToTop" href="#"><span class="fa fa-chevron-up"></span></a>
 	<div class="backgroundContainer">
 		<div class="inform">
-			<a href="#"><img src="images/brand.png" class="brand"></a>
-				<ul class="ulMenu">
-					<li  class="hasDropDown">
-						<a href="index.html" class="active">Home</a>
-						<ul class="dropDown">
-							<li><a href="#">About us</a></li>
-							<li><a href="#">Our principles</a></li>	
-							<li><a href="#">Our team</a></li>
-							<li><a href="#">Outdoors</a></li>
-							<li><a href="#">Events</a></li>
-							<li><a href="#">Testimonials</a></li>
-							<li><a href="#">page 404</a></li>
-						</ul>
-					</li>
-					<li><a href="rooms.html">Rooms</a></li>
-					<li><a href="specials.html">Specials</a></li>
-					<li><a href="galery.html">Gallery</a></li>
-					<li><a href="contacts.html">Contacts</a></li>
-				</ul>
+			<a href="index.html"><img src="images/brand.png" class="brand"></a>
+			<a class="toggleMenu" href="#"><span class="fa fa-bars"></span></a>
+			<ul class="ulMenu">
+				<li  class="hasDropDown">
+					<a href="index.html" class="active">Home</a>
+					<ul class="dropDown hidden">
+						<li><a href="#">About us</a></li>
+						<li><a href="#">Our principles</a></li>	
+						<li><a href="#">Our team</a></li>
+						<li><a href="#">Outdoors</a></li>
+						<li><a href="#">Events</a></li>
+						<li><a href="#">Testimonials</a></li>
+						<li><a href="#">page 404</a></li>
+					</ul>
+				</li>
+				<li><a href="rooms.html">Rooms</a></li>
+				<li><a href="specials.html">Specials</a></li>
+				<li><a href="galery.html">Gallery</a></li>
+				<li><a href="contacts.html">Contacts</a></li>
+			</ul>
 		</div>
 		<div class="hero">
 			<h1 class="bed"><span>Bed & Breakfast</span></h1>
@@ -58,9 +63,9 @@
 				<img src="images/home-01-585x384.jpg" class="images">
 					<p class="paragraph">All rooms have <span>digital flat screen Television, free Wi-Fi, fresh Towels, Tea and Coffee making facilities, bottled water, Radio/ Alarm Clock and Hairdryer.</span> We have a large Breakfast room where you can eat 	before heading off on your day’s activity in the Los Angeles area.</p>
 			</div>
-			<div class="imageAndParagraphOne" >
+			<div class="imageAndParagraph" >
 				<img src="images/home-02-585x384.jpg" class="images">
-					<p class="secondParagraph"> <span>The Verdi suite </span><br>
+					<p class="paragraph"> <span>The Verdi suite </span><br>
 					$155 Jan 1 - April 30 (except Dec 18-31 & Feb 14 & 15) <br>
 					$225 May 1 - Oct 15</p>
 			</div>

@@ -2,18 +2,25 @@
 <html>
 <head>
 	<title>Rooms</title>
+	 <meta charset="UTF-8"> 
 		<link rel="stylesheet" type="text/css" href="reset.css">
-		<link rel="stylesheet" type="text/css" href="Style.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="Style.css">
+		<link rel="stylesheet" type="text/css" href="styleupdate.css">
+		
+		<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="script.js"></script>
 </head>
 <body>
  <div class="contactContainer">
  	<div class="roomsMenuContainer">
-				<a href="#"><img src="images/brand.png" class="brand"></a>
-				<ul class="ul_menu">
-					<li><a href="index.html" class="hasDropDown">Home</a>
-					<ul class="dropDown">
+				<a href="index.html"><img src="images/brand.png" class="brand"></a>
+				<a class="toggleMenu" href="#"><span class="fa fa-bars"></span></a>
+				<ul class="ulMenu">
+					<li  class="hasDropDown">
+						<a href="index.html">Home</a>
+						<ul class="dropDown hidden">
 							<li><a href="#">About us</a></li>
 							<li><a href="#">Our principles</a></li>	
 							<li><a href="#">Our team</a></li>
