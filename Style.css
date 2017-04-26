@@ -1,0 +1,1391 @@
+* {
+	box-sizing: border-box;
+	transition: all 1s;
+}
+
+body {
+	font-family: Georgia,"Times New Roman",Times,serif;
+}
+.ulMenu {
+	display: inline-block;
+	
+}
+.ulMenu > li {
+	display: inline-block;
+	margin-left: 70px;
+	font-size: 20px;
+	position: relative;
+}
+.ulMenu li a {
+	text-decoration: none;
+	color: #fff;
+	padding: 10px;
+	border-radius: 10px;
+}
+.ulMenu li:hover a,
+.ulMenu li a.active {
+	background-color: #fff;
+	color: #000;
+	text-decoration: none;
+	transition-duration: 0.5s;
+}
+.ulMenu li:hover .dropDown {
+	display: block;
+}
+.backgroundContainer {
+	background-image: url(images/slide-01.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+.headContainer {
+	margin-left: 70px;
+}
+.inform {
+	padding: 30px;
+}
+.hero {
+	margin-bottom: 50px;
+}
+.horLine {
+	text-align: center;
+}
+.brand{
+	display: inline-block;
+	padding-left: 5%;
+}
+.active:hover {
+	border-radius: 10px 10px 0 0;
+}
+.ul_menu {
+	display: inline-block;
+	margin-left: 70px;
+}
+.ul_menu > li {
+	display: inline-block;
+	margin-left: 70px;
+	font-size: 20px;
+	position: relative;
+}
+.ul_menu li a {
+	text-decoration: none;
+	color: #fff;
+	padding: 10px;
+	border-radius: 10px;
+}
+.ul_menu li:hover a,
+.ul_menu li a.active {
+	background-color: #fff;
+	color: #000;
+	text-decoration: none;
+	transition-duration: 0.5s;
+}
+.dropDown {
+	position: absolute;
+	top: 30px;
+	width: 180px;
+	background-color: #fff;
+	display: none;
+}
+.dropDown li {
+	display: block;
+}
+.ul_menu li:hover .dropDown {
+	display: block;
+}
+.dropDown li a {
+    display: block;
+	color: #000;
+	line-height: 17px;
+    padding: 12px 15px;
+    border-radius: 0;
+}
+.dropDown li a:hover,
+.dropDown li a:active,
+.dropDown li a:focus {
+	background-color: #af9e6a;
+	color: #fff;
+}
+.bed {
+	color: white;
+	display: inline-block;
+	font-size:100px;
+	border-right: 1px solid;
+    text-align: center;
+    vertical-align: top;
+    width: 50%;
+}
+.bed span {
+	text-align: right;
+	display: inline-block;
+	padding-right: 30px;
+}
+.number {
+	text-decoration: none;
+    color: white;
+    display: inline-block;
+    font-size: 25px;
+    padding-left: 30px;
+    vertical-align: top;
+    line-height: 30px;
+}
+.phone  {
+	text-decoration: none;
+	color: white;
+	margin-left: 35px;
+}
+.phoneNumber {
+	text-decoration: none;
+	color: white;
+}
+.phone:hover {
+	color: grey;
+}
+.bookingButton {
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+	border: 1px solid #ccc;
+	padding: 10px;
+}
+.bookingButton:hover {
+	background-color: #fff;
+	color: #af9e6a;
+	transition-duration: 0.5s;
+	}
+iframe {
+	width: 100%;
+    height: 340px;
+    margin-top: 90px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.containerFooter {
+	padding: 0 10%;
+    margin-top: 40px;
+}
+.lastContainer  {
+	display: inline-block;
+}
+.lastParagraph {
+	line-height: 40px;
+    font-size: 20px;
+    color: #a9a9a9;
+}
+.lastParagraph span {
+	border-right: 1px solid #a9a9a9;
+	margin-right: 10px;
+    padding-right: 10px;
+}
+.lastNumber {
+    display: inline-block;
+    color: #a9a9a9;
+    font-size: 25px;
+    margin-top: 70px;
+    padding: 0 13%;
+}
+.lastPhone {
+	text-decoration: none;
+	color: #a9a9a9;
+}
+.faContainer {
+	display: inline-block;
+	letter-spacing: 5px;
+    font-size: 20px;
+}
+.fa {
+	color: #af9e6a;
+}
+.fa:hover {
+	color: #000;
+}
+.div_button {
+	margin-top: 100px;
+	margin-left: 38%;
+}
+.button {
+	text-decoration: none;
+	color: #af9e6a;
+	font-size: 20px;
+	border: 1px solid #ccc;
+	padding: 10px;
+}
+.button:hover {
+	background-color: #fff;
+	color: black;
+	transition-duration: 0.5s;
+}
+.text {
+	font-size: 19px;
+	line-height: 27px;
+    color: white;
+    text-align: center;
+    width: 58%;
+    margin: 0 auto;
+    font-style: italic;
+    padding: 30px;
+}
+.numbers {
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+.firstNumber {
+	font-size: 35px;
+	border-right: 2px solid white;
+	padding: 0 10px;
+	font-weight: bold;
+}
+.secondNumber {
+	border-right: 2px solid white;
+	padding: 0 10px;
+}
+.numberContainer {
+	text-align: center;
+	padding-bottom: 30px;
+}
+.numberContainer span:hover {
+	font-size: 35px;
+	font-weight: bold;
+	transition-duration: 0.5s;
+}
+.room {
+	font-size: 35px;
+    font-weight: bold;
+}
+.theVerdi {
+	font-size: 90px;
+    position: relative;
+    bottom: 280px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.paragraph {
+	font-size: 21px;
+    color: gray;
+    line-height: 24px;
+    margin-right: 30px;
+    width: 555px;
+}
+.paragraph span {
+	font-style: italic;
+	font-weight: bold;
+	color: #000;
+}
+.imageAndParagraph {
+	display: inline-block;
+	margin-right: 5px;
+}
+.imageAndParagraphOne {
+	display: inline-block;
+	vertical-align: top;
+}
+.images {
+	width: 100%;
+	height: auto;
+}
+.secondParagraph {
+	font-size: 20px;
+    color: gray;
+    line-height: 24px;
+}
+.secondParagraph span {
+	color: #000;
+	font-weight: bold;
+}
+.buttonContainer{
+	text-align: center;
+}
+
+.infoButton {
+    font-size: 20px;
+    text-decoration: none;
+    border: 1px solid lightgray;
+    padding: 6px;
+    color: #af9e6a;
+    letter-spacing: .025em;
+}
+.infoButton:hover {
+	background-color: #af9e6a;
+	color:#fff;
+	transition-duration: 0.5s;
+}
+.secondNumberContainer {
+	text-align: center;
+	font-size: 20px;
+	margin-top: 100px;
+}
+.secondNumberContainer span:hover {
+	font-size: 35px;
+	color: #000;
+	transition-duration: 0.5s;
+	font-weight: bold;
+}
+.numberLink {
+	text-decoration: none;
+	color:#af9e6a;
+}
+.numberFirst {
+	border-right: 2px solid #af9e6a;
+	padding: 0 15px;
+	font-size: 35px;
+}
+.numberSecond {
+	border-right: 2px solid #af9e6a;
+	padding: 0 15px;
+	font-size: 20px;
+}
+.secondButtonContainer {
+	text-align: center;
+	margin-top: 50px;
+}
+.secondButton {
+	text-decoration: none;
+	font-size: 25px;
+	border:1px solid lightgray;
+	padding: 10px;
+	color: #af9e6a;
+	font-weight: bold;
+}
+.secondButton:hover {
+	background-color: #af9e6a;
+	color: #fff;
+	transition-duration: 0.3s;
+}
+.breakfastContainer {
+	display: inline-block;
+	margin: 0 5%;
+	}
+.breakfast{
+	margin-top: 125px;
+	font-size: 35px;
+	font-weight: bold;
+}
+.breakfastFoto {
+	margin-top: 70px;
+	float: left;
+}
+.breakfastParagraph {
+	float: right;
+    font-size: 19px;
+    width: 500px;
+    margin-top: 67px;
+    margin-right: 200px;
+    color: #a9a9a9;
+    letter-spacing: 0.5px;
+    line-height: 27px;
+}
+.foodMenuContainer {
+	margin-top: 20px;
+    float: left;
+    margin-left: 110px;
+}
+.wordA {
+	font-size: 40px;
+    font-weight: bold;
+    line-height: 78px;
+}
+.paragraphGuests {
+	font-size: 19px;
+    letter-spacing: 1px;
+    width: 300px;
+    line-height: 28px;
+    padding-bottom: 15px;
+}
+.ulMenuChoice {
+	line-height: 40px;
+    font-size: 20px;
+    font-style: italic;
+    color: #a9a9a9;
+}
+.secondFoodMenuContainer {
+	float: right;
+	margin-top: 20px;
+}
+.wordB {
+	font-size: 40px;
+    font-weight: bold;
+    line-height: 78px;
+}
+.englishBreakfast {
+	font-size: 19px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    padding-bottom: 15px;
+    width: 325px;
+}
+.breakfastMenu {
+	line-height: 40px;
+    font-size: 20px;
+    font-style: italic;
+    color: #a9a9a9;
+}
+.breakfastButton {
+	color: #af9e6a;
+    border: 1px solid #a9a9a9;
+    padding: 10px 18px;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.breakfastButton:hover {
+	background-color: #af9e6a;
+	color: #fff;
+	transition-duration: 0.5s;
+}
+.link {
+	margin: 10% 5%;
+}
+.sectionOne {
+	margin:0 5%;
+}
+.welcomeContainer {
+	margin-right: 70px;
+}
+.wecomeHeadder {
+	font-size: 40px;
+    font-weight: bold;
+}
+.welcomeParagraph {
+    font-size: 17px;
+    width: 482px;
+    line-height: 32px;
+    font-style: italic;
+    margin-top: 30px;
+    display: inline-block;
+}
+.welcomeParagraphtwo {
+	font-size: 17px;
+    display: inline-block;
+    width: 520px;
+    line-height: 32px;
+    color: #a9a9a9;
+    float: right;
+    margin-top: 30px;
+}
+.paragraphTwoButton {
+	margin-top: 31px;
+    display: inline-block;
+    color: #af9e6a;
+    text-decoration: none;
+    border: 1px solid #a9a9a9;
+    padding: 5px;
+}
+.paragraphTwoButton:hover {
+	background-color: #af9e6a;
+	color: #fff;
+	transition-duration: 0.5s;
+}
+.paragraphWeather {
+	font-size: 27px;
+    color: #af9e6a;
+    margin-top: 32px;
+    
+}
+.buttonParagraphWeather {
+	margin-top: 30px;
+	font-size: 20px;
+}
+.weatherButton {
+	border: 1px solid #a9a9a9;
+    padding: 10px;
+    color: #af9e6a;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin-top: 25px;
+}
+.weatherButton:hover{
+	background-color: #af9e6a;
+	color: #fff;
+	transition-duration: 0.5s;
+}
+.informationContainer {
+    margin-left: 45px;
+    margin-top: 30px;
+    line-height: 35px;
+}
+.weatherContainer {
+	float: left;
+	margin-right: 30px;
+}
+.imageWeather {
+	margin-top: 15px;
+}
+.informationParagraph {
+	font-size: 19px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #a9a9a9;
+}
+.informationNumber {
+	text-decoration: none;
+    color: #000;
+    font-size: 38px;
+}
+.RecentContainer {
+	display: inline-block;
+	padding-left: 5%;
+}
+.recentHeader {
+	font-size: 35px;
+    font-weight: bold;
+}
+.recettext {
+	line-height: 30px;
+    font-size: 20px;
+    margin-top: 40px;
+}
+.recettext li {
+	margin-top: 20px;
+}
+.recettext a {
+	text-decoration: none;
+	color: #af9e6a;
+}
+.recettext a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+.recettext time {
+	color: #939393;
+}
+.testimonialsHeader {
+	font-size: 35px;
+    font-weight: bold;
+}
+.beautyGirl {
+	margin-top: 40px;
+}
+.comment {
+	font-size: 20px;
+    width: 584px;
+    line-height: 25px;
+    margin-top: 40px;
+    color: #a9a9a9;
+}
+.nameParagraph {
+	font-size: 20px;
+    font-style: italic;
+    margin-top: 20px;
+}
+.TestimonialsContainer {
+	display: inline-block;
+	border-left: 1px solid #a9a9a9;
+    padding-left: 5%;
+}
+.buttonRewiews {
+	color: #af9e6a;
+	display: block;
+    margin-top: 20px;
+    border: 1px solid #a9a9a9;
+    float: left;
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+}
+.contactContainer {
+	font-family: Georgia,"Times New Roman",Times,serif;
+	font-size: 0;
+}
+.contactContainerOne {
+	padding: 5%;
+}
+.contactHeader {
+	font-size: 35px;
+	font-weight: bold;
+}
+.formContainer {
+	margin-top: 70px;
+}
+input {
+ 	width: 30%;
+    height: 25px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom-color: #d3d3d3;
+    font-size: 20px;
+    outline: none;
+    color: #a9a9a9;
+ }
+ textarea {
+ 	width: 100%;
+    height: 130px;
+    margin-top: 60px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #d3d3d3;
+    font-size: 20px;
+    outline: none;
+    color: #a9a9a9;
+ }
+ input::-webkit-input-placeholder {color: #a9a9a9;}
+ textarea::-webkit-input-placeholder {color: #a9a9a9;}  
+.email {
+	margin-left: 35px;
+}
+.Container {
+	margin: 20px auto;
+	width: 91%;
+}
+.roomsContainer {
+	font-family: Georgia,"Times New Roman",Times,serif;
+	font-size: 0;
+	width: 90%;
+	margin: 20px auto;
+}
+.roomsMenuContainer {
+	background-color: #000;
+	padding: 70px;
+}
+.roomWord{
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 100px;
+}
+.firstRoomContainer {
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 2px;
+	margin-top: 20px;
+}
+.twinRoom {
+	font-size: 18px;
+    width: 360px;
+    line-height: 26px;
+    color: #a9a9a9;
+	margin-top: 20px;
+}
+.twinRoom span {
+	color: #000;
+	font-weight: bold;
+}
+.button {
+	text-decoration: none;
+    font-size: 18px;
+    display: inline-block;
+    margin-top: 20px;
+    border: 1px solid #a9a9a9;
+    padding: 10px;
+}
+.button:hover {
+	background-color: #af9e6a;
+	color: #fff;
+	transition-duration: 0.5s;
+}
+.firstRoomContainer img {
+	width: 100%;
+	height: auto;
+}
+.secondRoomContainer {
+	display: inline-block;
+	margin-left: 40px;
+}
+.threeRoomContainer {
+	display: inline-block;
+	margin-left: 30px;
+}
+hr {
+	margin: 20px 0;
+}
+.spaciousRooms {
+	font-size: 35px;
+    font-weight: bold;
+}
+.spaLink {
+	display: block;
+    text-decoration: none;
+    color: #000;
+    margin: 20px 0;
+    font-style: italic;
+}
+.spaLink:hover {
+	color:#af9e6a;
+}
+.spaText {
+    line-height: 25px;
+    color: #a9a9a9;
+}
+.spaciousContainer {
+	display: inline-block;
+	width: 43%;
+    font-size: 18px;
+}
+.bedroomContainer {
+	float: right;
+	font-size: 18px;
+	width: 43%;
+}
+.bedroomSuites {
+	display: block;
+    text-decoration: none;
+    color: #000;
+    margin: 20px 0;
+    font-size: 18px;
+    font-style: italic;
+}
+.bedroomSuites:hover {
+	color:#af9e6a;
+}
+.spaText1 {
+    line-height: 25px;
+    color: #a9a9a9;
+    display: inline-block;
+}
+.pararooms {
+	max-width: 100%;
+	margin-top: 100px;
+}
+.QueenRoom {
+	position: absolute;
+}
+.fonImages {
+	background-image: url(images/pararooms-parallax-01.jpg);
+	background-repeat: no-repeat;
+	height: 657px;
+}
+.fonTextOne {
+	font-weight: bold;
+	font-size: 100px;
+	color: #af9e6a;
+	margin: 20px auto;
+	width: 80%;
+	padding-top: 30px;
+}
+.fonText {
+	width: 80%;
+    color: #fff;
+    line-height: 25px;
+    font-size: 18px;
+    font-style: italic;
+    margin: 0 auto;
+   }
+.popularRoomsContainer {
+	margin:0 auto;
+	width: 91%;
+}
+.popularRoomsContainer img {
+	width: 100%;
+	height: auto;
+}
+.popularContainer {
+	display: inline-block;
+	border-right: 1px solid #a9a9a9;
+	padding-right: 10px;
+}
+.popularRooms {
+	font-size: 35px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-bottom: 35px;
+}	
+.standartRooms {
+	display: block;
+    text-decoration: none;
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 20px;
+    color: #af9e6a;
+}
+.textStandartRooms {
+	width: 472px;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 20px;
+    color: #a9a9a9;
+}
+.popularContainerOne {
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 10px;
+}
+
+.specialContainer {
+	font-family: Georgia,"Times New Roman",Times,serif;
+}
+.specialImage {
+	width: 100%;
+	height: auto;
+}
+.specialOffersContainer {
+	margin: 20px auto;
+	width: 91%;
+}
+.specialHeader {
+	font-size: 35px;
+	font-weight: bold;
+	padding-bottom: 15px;
+}
+.SpecialContainer {
+	display: inline-block;
+	padding-right: 1%;
+}
+.specialContainerone {
+	font-size: 18px;
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+}
+.bookAdvance {
+	display: block;
+	text-decoration: none;
+	color: #a9a9a9;
+	font-weight: bold;
+}
+.bookAdvance:hover {
+	color: #af9e6a;
+
+}
+.specialText {
+	line-height: 25px;
+    font-style: italic;
+	margin-top: 20px;
+}
+.includesText {
+    color: #a9a9a9;
+    margin-top: 15px;
+}
+.olLine {
+	color: #af9e6a;
+    line-height: 25px;
+    margin-top: 25px;
+    padding-left: 18px;
+}
+.containerOne {
+	margin: 20px auto;
+	width: 90%;
+}
+.specialContainertwo {
+	font-size: 18px;
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+}
+.lingerLonger {
+	display: block;
+	text-decoration: none;
+	color: #a9a9a9;
+	font-weight: bold;
+}
+.lingerLonger:hover {
+	color: #af9e6a;
+}
+.specialTextOne {
+	line-height: 25px;
+    font-style: italic;
+	margin-top: 20px;
+}
+.olLineOne {
+	color: #af9e6a;
+    line-height: 25px;
+    margin-top: 25px;
+    padding-left: 18px;
+}
+.includesTextOne {
+    color: #a9a9a9;
+    margin-top: 25px;
+}
+.specialContainerthree {
+	margin-top: 15px;
+}
+.foneImage {
+	background-image: url(images/parallax-02.jpg);
+	height: 570px;
+	margin-top: 50px;
+}
+.parallaxImage {
+	width: 100%;
+	height: 615px;
+}	
+.gourmetHeader {
+    font-size: 100px;
+    width: 80%;
+    padding-top: 30px;
+    margin: 0 auto;
+    color: #af9e6a;
+    font-weight: bold;
+}
+
+.gourmetText {
+    color: #fff;
+    line-height: 25px;
+    font-size: 18px;
+    padding-top: 30px;
+    margin: 0 auto;
+    font-style: italic;
+    width: 80%;
+}
+.specialOffersContainer img {
+	width: 100%;
+	height: auto;
+}
+.specialOffers {
+	font-size: 35px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.FamilyRoomContainer {
+	display: inline-block;
+}
+.paragraphContainer {
+	width: 371px;
+	font-size: 18px;
+}
+.familyRoom {
+	display: block;
+	text-decoration: none;
+	color: #a9a9a9;
+	margin-top: 25px;
+}
+.familyRoom:hover {
+	color: #af9e6a;
+}
+.familyParagraph {
+    margin-top: 20px;
+    line-height: 25px;
+    font-style: italic;
+}
+.familyParagraphone {
+    color: #a9a9a9;
+    margin-top: 20px;
+}
+.familyParagraphtwo {
+	font-size: 100px;
+	color: #af9e6a;
+}
+.familyParagraphtwo span {
+	font-size: 45px;
+    position: relative;
+    bottom: 25px;
+}
+.doubleRoomContainer {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 5px;
+}
+.doubleRoom {
+	display: block;
+	text-decoration: none;
+	color: #a9a9a9;
+	margin-top: 25px;
+}
+.doubleRoom:hover {
+	color: #af9e6a;
+}
+.doubleParagraph {
+    margin-top: 20px;
+    line-height: 25px;
+    font-style: italic;
+}
+.doubleParagraphone {
+    color: #a9a9a9;
+    margin-top: 20px;
+}
+.doubleParagraphtwo {
+	font-size: 100px;
+	color: #af9e6a;
+}
+.doubleParagraphtwo span {
+	font-size: 45px;
+    position: relative;
+    bottom: 25px;
+}
+.singleRoomContainer {
+	display: inline-block;
+	vertical-align: top;
+}
+.singleRoom {
+	display: block;
+	text-decoration: none;
+	color: #a9a9a9;
+	margin-top: 25px;
+}
+.singleRoom:hover {
+	color: #af9e6a;
+}
+.singleParagraph {
+    margin-top: 20px;
+    line-height: 25px;
+    font-style: italic;
+}
+.singleParagraphone {
+    color: #a9a9a9;
+    margin-top: 20px;
+}
+.singleParagraphtwo {
+	font-size: 100px;
+	color: #af9e6a;
+}
+.singleParagraphtwo span {
+	font-size: 45px;
+    position: relative;
+    bottom: 25px;
+}
+.imagesContainer {
+	position: relative;
+	width: 25%;
+	margin-bottom: 10px;
+	font-size: 14px;
+	display: inline-block;
+    vertical-align: middle;
+}
+.imagesContainer img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+.imagesContainer:hover .itemColor {
+	display: block;
+}
+.itemColor {
+	background-color: #000;
+	opacity: .5;
+	position: absolute;
+	width: 100%;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: none;
+}
+.itemColor a i.fa {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	font-size: 25px;
+	color: #fff;
+	display: block;
+	margin-left: -12.5px;
+	margin-top: -12.5px;
+
+}
+.itemColor:hover {
+}
+@media (max-width: 1243px) {
+	.specialOffersContainer,.Container {
+		text-align: center;
+	}
+
+}
+@media (max-width: 1200px) {
+	.container {
+		width: 992px;
+	}
+	.ulMenu li {
+		margin-left: 10px;
+	}
+	.ul_menu li {
+		margin-left: 10px;
+	}
+	.formContainer {
+		margin: 70px auto;
+		text-align: center;
+	}
+	.containerFooter {
+		margin: 0 auto;
+		text-align: center;
+		padding: 0 0;
+	}
+	.specialTextOne {
+		width: 410px;
+	}
+	.olLineOne {
+		width: 431px;
+	}
+	.gourmet {
+		left: 55px;
+	}
+	.doubleRoomContainer {
+		margin-left: 0px;
+	}
+	.singleRoomContainer {
+		margin-left: 0px;
+		padding: 20px;
+	}
+	.specialContainerone{
+		margin-left: 0px;
+		font-size: 15px;
+	}
+	.specialOffersContainer {
+		margin: 0 auto;
+	}
+	.olLine {
+		width: 410px;
+	}
+	.specialImageContainer {
+		margin-right: 15px;
+	}
+	.gourmetHeader,.fonTextOne {
+		font-size: 80px;
+	}
+
+	.paragraphContainer {
+		font-size: 15px;
+		width: 350px;
+	}
+	.bedroomContainer {
+		float: none;
+		margin: 0 auto;
+	}
+	.popularRoomsContainer {
+		width: 50%;
+		text-align: center;
+	}
+	.popularContainerOne {
+		padding-left: 0;
+		display: block;
+		margin: 20px 0;
+	}
+	.popularContainer {
+		border-right:0;
+		display: block;
+	}
+	.twinRoom,.bedroomContainer,.spaciousContainer {
+		font-size: 15px;
+	}
+    .textStandartRooms {
+    	width: 100%;
+    	font-size: 15px;
+    }
+    .roomWord,.spaciousRooms,.popularRooms {
+    	font-size: 30px;
+    }
+	.bed {
+		width: 100%;
+		font-size: 55px;
+		font-weight: bold;
+		border-right: none;
+	}
+	.number {
+		text-align: center;
+		width: 93%;
+		margin: 20px auto;
+	}
+	.text {
+		width: 80%;
+	}
+}
+@media (max-width: 1133px) {
+	.specialHeader {
+		width: 65%;
+		margin: 0 auto;
+	}
+}
+@media (max-width: 1076px) {
+	.containerOne {
+		width: 50%;
+	}
+	.specialContainerone {
+		width: 90%;
+	}
+	.breaking {
+		display: none;
+	}
+}
+@media ( max-width: 992px) {
+	.container {
+		width: 100%;
+	}
+	.inform {
+		display: block;
+	}
+	.ul_menu {
+		margin-left: 30px;
+	}
+	.ul_menu li {
+		display:inline-block;
+		margin-left: 0;
+	}
+	.ul_menu li a {
+		display: block;
+	}
+	.ulMenu {
+		margin-left: 30px;
+	}
+	.ulMenu li {
+		display:inline-block;
+		margin-left: 0;
+	}
+	.ulMenu li a {
+		display: block;
+	}
+	.roomsMenuContainer {
+		padding: 30px;
+	}
+	input {
+		width: 26%;
+	}
+	.lastNumber {
+		padding: 0 5%;
+	}
+	.gourmetHeader,.fonTextOne {
+		font-size: 60px;
+	}
+	.hero {
+		margin-bottom: 0;
+	}
+	.text {
+		width: 100%;
+	}
+}
+@media (max-width: 768px) {
+	.contactHeader {
+		text-align: center;
+	}
+	.contactContainerOne {
+		margin:100px 25px;
+	}
+	.ul_menu {
+		display: block;
+		margin-left: 0px;
+	}
+	.ul_menu li {
+		float: none;
+		margin-top: 20px;
+		display: block;
+	}
+	.ul_menu li a {
+		border:none;
+		border-radius: 0px;
+		padding-top: 6px;
+		padding-bottom: 6px;
+		color: #fff;
+	}
+	.ul_menu li:hover a {
+		background-color: #af9e6a;
+	}
+	.ulMenu {
+		display: block;
+	}
+	.ulMenu li {
+		float: none;
+		margin-top: 10px;
+		display: block;
+	}
+	.ulMenu li a {
+		border:none;
+		border-radius: 0px;
+		padding-top: 6px;
+		padding-bottom: 6px;
+		color: #fff;
+	}
+	.ulMenu li:hover a {
+		background-color: #af9e6a;
+	}
+	.hasDropDown {
+		text-decoration: none;
+		display: inline-block;
+		position: relative;
+		background-color: #000;.
+	}
+	input {
+		width: 100%;
+		padding: 15px 0;
+	}
+	.specialText,.olLine  {
+		width: 341px;
+	}
+	.bookAdvance {
+		width: 210px;
+	}
+	.containerFooter {
+		padding: 0px;
+	}
+	.lastContainer {
+		display: block;
+	}
+	.lastNumber {
+		text-align: center;
+		margin-top: 20px;
+		margin-bottom: 50px;
+	}
+	.faContainer {
+		display: block;
+		margin-top: 0px;
+		margin-bottom: 20px;
+		float: none;
+	}
+	.phone {
+		margin-left: 0px;
+	}
+	.email {
+		margin-left: 0px;
+	}
+	.ul_menu li:hover a {
+		background-color: #af9e6a;
+	}
+	.ulMenu li:hover a {
+		background-color: #af9e6a;
+	}
+	.gourmetHeader,.fonTextOne {
+		font-size: 50px;
+	}
+	.inform {
+		padding: 30px;
+	}
+}
+@media (max-width: 543px) {
+	.ul_menu {
+		display: inline;
+		margin-left: 0px;
+	}
+	.ul_menu li {
+		float: none;
+		margin-top: 20px;
+	}
+	.ulMenu {
+		display: inline;
+		margin-left: 0px;
+	}
+	.ulMenu li {
+		float: none;
+		margin-top: 20px;
+	}
+	.hasDropDown {
+		text-decoration: none;
+		display: inline-block;
+		position: relative;
+		background-color: #000;.
+	}
+	.roomsMenuContainer {
+		padding: 30px;
+		width: 100%
+	}
+	.ul_menu li a {
+		border-radius: 0px;
+		border:none;
+		padding-top: 6px;
+	}
+	.ulMenu li a {
+		border-radius: 0px;
+		border:none;
+		padding-top: 6px;
+	}
+	.specialText,.olLine  {
+		width: 280px;
+	}
+	.gourmetHeader,.fonTextOne {
+		font-size: 30px;
+	}
+	.spaciousContainer,.bedroomContainer {
+		width: 75%;
+	}
+
+}
+@media (max-width: 320px) {
+	.lastContainer {
+		margin-left: 60px;
+		text-align: center;
+	}
+	.lastNumber {
+		margin-left: 0px;
+		text-align: center;
+	}
+	.faContainer {
+		margin-left: 50px;
+		text-align: center;
+	}
+}
